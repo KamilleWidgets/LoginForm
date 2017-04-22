@@ -35,6 +35,7 @@ The model used by this widget contains the following variables:
 - uriCreateAccount: string, uri to the create account page
 - textCreateAccount: string, text of the create account link
 - textNewToSite: string, an extra text accompanying the create account link
+- textSubmit: string, the text of the submit button
 
 
 
@@ -78,6 +79,7 @@ $conf = [
                 "uriCreateAccount" => "/create-account",
                 "textCreateAccount" => __("createAccount", $t),
                 "textNewToSite" => __("newToSite", $t),
+                "textSubmit" => __("submit", $t),
             ],
         ],
     ],
@@ -92,6 +94,10 @@ $conf = [
 History Log
 ------------------
 
+- 1.1.0 -- 2017-04-22
+
+    - add textSubmit
+    
 - 1.0.0 -- 2017-04-21
 
     - initial commit
